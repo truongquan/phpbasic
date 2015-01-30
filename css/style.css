@@ -1,0 +1,79 @@
+/* ====================backend===================*/
+body{
+	font-size: 14px;
+	font-family: arial;
+}
+.container{
+	width:960px;
+	margin:0 auto;
+	overflow: hidden;
+}
+a.enable, a.disable, a.delete, a.edit{
+	width: 24px;
+	height: 24px;
+	display: block;
+	background:url("../images/Accept-icon.png") top left no-repeat;
+}
+a.disable{
+	background: url("../images/disable-icon.png") top left no-repeat;
+}
+a.delete{
+	background: url("../images/Trash-empty-icon.png") top left no-repeat;
+}
+a.edit{
+	background: url("../images/pencil-icon.png") top left no-repeat;
+}
+.button{
+	height: 35px;
+	min-width: 125px;
+	display: inline-block;
+	line-height: 35px;
+	text-transform: uppercase;
+	border: 1px solid #ddd;
+	transition:all 0.5s;
+	text-align:center;
+	text-decoration: none;
+	color: #444;
+	font-size: 15px;
+	border-radius: 4px;
+}
+.button:hover{
+	background-color: #85bd94;
+	color:#fff;
+	border:1px solid #85bd94;
+	cursor: pointer;
+}
+
+table#content{
+	margin:10px 0;
+	border-top:1px solid #ddd;
+	border-left: 1px solid#ddd;
+}
+
+#content thead tr th{
+	padding:10px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#content tbody tr td{
+	padding:10px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	text-transform: capitalize;
+}	
+label{
+	display: block;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.error_message{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0;
+	font-style: italic;
+	color: red;
+}
