@@ -40,9 +40,9 @@ if (isset($_POST['post_title'])) {
 		</select>
 		<br /><br />
 		<input type="submit" value="Save Post" class="button" />
-		<input type="reset" value="Reset" class="button" />
+		<input type="reset" value="Reset<" class="button" />
 	</form>
 </div><!--end .container-->
-
+<h3>Vim to edit file in terminal :)</h3>
 </body>
 </html>
